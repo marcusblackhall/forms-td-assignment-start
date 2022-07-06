@@ -1,0 +1,25 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule, ViewChild } from '@angular/core';
+import { FormsModule, NgForm } from '@angular/forms';
+
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule {
+
+
+
+
+
+ }
